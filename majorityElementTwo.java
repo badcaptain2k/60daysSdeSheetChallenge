@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class majorityElementTwo {
     /*
     Time Complexity: O(N * log(N))
