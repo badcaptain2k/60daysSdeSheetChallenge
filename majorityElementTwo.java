@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class majorityElementTwo {
     /*
@@ -8,12 +9,11 @@ public class majorityElementTwo {
     Where 'N' is the number of elements in the given array/list.
 */
 
-import java.util.ArrayList;
-import java.util.Collections;
+
 
     public class Solution
     {
-        public static ArrayList<Integer> majorityElementII(ArrayList<Integer> arr)
+        public  ArrayList<Integer> majorityElementII(ArrayList<Integer> arr)
         {
 
             int n=arr.size();int sum=0;
